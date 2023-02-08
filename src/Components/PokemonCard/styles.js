@@ -8,6 +8,11 @@ export const Card = styled.div`
   text-align: center;
   border-radius: 10px;
   box-shadow: 10px 10px 30px #bdbdbd;
+
+  img {
+    height:200px;
+    width:230px;
+  }
 `;
 
 export const PokemonName = styled.h2`
@@ -21,6 +26,9 @@ export const PokemonType = styled.p`
     padding: 0.5rem 0;
 `
 export const EvolveButton = styled.button`
+    background-color:rgb(139, 0, 0);
+    color: white;
+    font-family: 'Poppins';
     padding: 0.5rem;
     margin: 16px;
     border-radius: 4px;
@@ -29,3 +37,4 @@ export const EvolveButton = styled.button`
     box-shadow: 0 6px 30px -10px #000000;
 
 `
+
